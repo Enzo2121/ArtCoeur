@@ -4,9 +4,9 @@ layout: wide
 
 ::simple-hero
 ---
-button1Link: "/about"
-button2Link: "/contact"
-imageSrc: "/images/boutique1.webp"
+button1Link: /about
+button2Link: /contact
+imageSrc: /images/boutique1.webp
 ---
 #heroTitle
 Le Collectif d’Artisans qui Fait Vivre la Création Locale
@@ -23,8 +23,8 @@ Contact
 
 ::boutique
 ---
-imageSrc: "/images/boutique.webp"
-buttonLink: "/boutique"
+buttonLink: /boutique
+imageSrc: /images/boutique.webp
 ---
 #boutiqueTitle
 Découvrez la boutique
@@ -36,11 +36,10 @@ Plongez dans l’univers de la création locale avec notre boutique, véritable 
 En savoir plus
 ::
 
-
 ::section-salon
 ---
-imageSrc: "/images/salon.webp"
-buttonLink: "/salon"
+buttonLink: /salon
+imageSrc: /images/salon.webp
 ---
 #salonTitle
 Découvrez le Salon de Thé
@@ -54,11 +53,10 @@ En savoir plus
 
 ::section-atelier
 ---
-imageSrc: "/images/mat.webp"
+imageSrc: /images/mat.webp
 ---
-
 #atelierTitle
-Notre Atelier et ses 3 facettes 
+Notre Atelier et ses 3 facettes
 
 #atelierSubtitle
 
@@ -82,8 +80,6 @@ Un lieu dédié aux créateurs locaux pour réaliser leurs œuvres. L’atelier 
 ::
 
 ::team
----
----
 #teamTitle
 Meet our team
 
@@ -107,10 +103,8 @@ Simon Konecki
 ::
 
 ::hero-temoignages
----
----
 #testimonialsTitle
-Nos merveilleux clients nous recommendent 
+Nos merveilleux clients nous recommendent
 
 #testimonialsDescription
 Voici quelques avis laissés par nos clients sur Google ! Leur satisfaction est notre plus grande fierté, et nous mettons tout en œuvre pour offrir un service de qualité
@@ -125,7 +119,7 @@ Une boutique chaleureuse qui a une âme ! Un accueil souriant, une atmosphère d
 Tristan.A
 
 #testimonial2Text
-Une jolie boîte pleine de surprises fabriquées localement et avec amour (déco, bijoux, sapes...). On y fait le plein de sourires accueillants 
+Une jolie boîte pleine de surprises fabriquées localement et avec amour (déco, bijoux, sapes...). On y fait le plein de sourires accueillants
 
 #testimonial3Name
 Fiona.W
@@ -133,4 +127,3 @@ Fiona.W
 #testimonial3Text
 Au top, une super boutique avec plein d'idées cadeaux et de très jolies choses. Une équipe au top et super agréable! J'adore cette boutique et je recommande à 100%.
 ::
-
