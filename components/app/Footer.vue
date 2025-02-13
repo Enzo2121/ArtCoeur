@@ -6,16 +6,16 @@ const socials = computed(() => config.footer.socials ? Object.values(config.foot
 
 const navigation = [
   {
-    title: "Boutique", links: [{ title: "Découvrir", link: "/boutique" }, { title: "Nouveautés", link: "/nouveautes" }],
+    title: "Boutique", links: [{ title: "Découvrir", link: "/boutique" }, { title: "Nouveautés", link: "/boutique" }],
   },
   {
-    title: "Artisans", links: config.directory.tags?.filter(e => e && (e as Tag).name).map(e => ({ title: (e as Tag).name, link: `/artisans/${(e as Tag).name}` })).slice(0, 4),
+    title: "Artisans", links: [{ title: "Nos créateur", link: "/artisans" }],
   },
   {
-    title: "Blog", links: [{ title: "Articles", link: "/blog" }, { title: "Événements", link: "/evenements" }],
+    title: "Blog", links: [{ title: "Articles", link: "/blog" }, { title: "Événements", link: "/blog" }],
   },
   {
-    title: "Contact", links: [{ title: "Nous Contacter", link: "/contact" }, { title: "À Propos", link: "/about" }],
+    title: "Contact", links: [{ title: "Nous Contacter", link: "/contact" }, { title: "À Propos", link: "/contact" }],
   },
 ];
 </script>
