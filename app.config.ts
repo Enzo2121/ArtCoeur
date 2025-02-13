@@ -2,28 +2,25 @@ import type Emoji from "./components/OgImage/Emoji.vue";
 
 export default defineAppConfig({
   general: {
-    title: "Minted Directory",
+    title: "Au Cœur des Artistes",
     logo: "",
-    iconLogo: "fluent-emoji-flat:leaf-fluttering-in-wind",
+    iconLogo: "",
   },
   site: {
-    // override the general settings for seo tags.
-    // leave empty for general priority.
-    // url is necessary for correct function of seo module.
-    name: "Minted Directory",
-    description: "Example Description",
-    url: "https://example.com",
+    name: "Au Cœur des Artistes",
+    description: "Au Cœur des Artistes, collectif d’artisans au Mans, propose créations uniques, boutique, salon de thé et ateliers pour valoriser l’artisanat local.",
+    lang: "fr",
+    url: "https://aucoeurdesartistes.com",
     favicon: {
       image: "",
-      emoji: "🍃",
+      emoji: "❤️",
     },
   },
   directory: {
     search: {
-      placeholder: "Search among {0} tools",
-      icon: "tabler:bow",
+      placeholder: "Rechercher parmi {0} créations",
+      icon: "tabler:search",
       tags: {
-        // options: none,select,show-all,
         display: "select",
         intersection: false,
       },
@@ -31,22 +28,19 @@ export default defineAppConfig({
     grid: {
       list: false,
       emptyState: {
-        text: "Seems that this entry is missing from the archives.",
-        // options: button, simple, link
+        text: "Aucune création trouvée dans nos archives.",
         type: "button",
         icon: "tabler:exclamation-mark",
       },
       card: {
         image: true,
-        // options: dashed, shadow, outline, bullet
         type: "shadow",
       },
       submit: {
         show: true,
         first: false,
-        title: "Submit a template",
-        description:
-          "Submit a template to show off a good project to other people.",
+        title: "Proposer une création",
+        description: "Mettez en avant vos réalisations auprès de notre communauté.",
         hideable: true,
       },
     },
@@ -54,70 +48,45 @@ export default defineAppConfig({
       showOnAllPages: true,
       showOnSide: true,
       icon: "tabler:star",
-      labelForCard: "Featured ✨",
+      labelForCard: "À la Une ✨",
     },
-    tags: [
-      { name: "SAAS", color: "blue" },
-      { name: "dashboard", color: "green" },
-      { name: "landing-page" },
-      { name: "toolbox" },
-      { name: "agency" },
-      { name: "markdown-based" },
-      { name: "basics", color: "indigo" },
+    tags: ["Bijoux", "Céramique", "Décoration", "Illustration", "Mode", "Papeterie", "Sculpture", "Textile", "Verrerie"
     ],
     tagPages: {
-      title: "Available {0} products:",
-      description:
-        "View all available tools and templates in the {0} category...",
+      title: "{0} disponibles :",
+      description: "Découvrez toutes les créations dans la catégorie {0}.",
     },
   },
   header: {
     banner: {
-      show: true,
-      text: "Create your own directory website in minutes.",
-      link: "https://minteddirectory.com",
-      brandText: "MintedDirectory",
+      show: false, // Désactivé par défaut
     },
     navbar: {
       colorModeSelector: true,
       links: [
-        { name: "Directory", to: "/" },
+        { name: "Accueil", to: "/" },
+        { name: "La Boutique", to: "/boutique" },
+        { name: "Le Salon de Thé", to: "/salon" },
+        { name: "Notre Atelier", to: "/atelier" },
+        { name: "Les Artisans", to: "/artisans" },
         { name: "Blog", to: "/blog" },
-        { name: "Advertise", to: "/advertise" },
-        {
-          name: "Analytics",
-          to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
-          target: "_blank",
-        },
       ],
     },
     actionButton: {
-      text: "Submit a starter",
-      href: "/submit",
+      text: "Contactez-nous",
+      href: "/contact",
     },
   },
   footer: {
-    description: "Best directory for my niche.",
+    description: "Au Cœur des Artistes, collectif d'artisans du Mans.",
     socials: {
-      github: {
-        link: "",
-        icon: "tabler:brand-github",
-      },
       facebook: {
-        link: "",
+        link: "https://www.facebook.com/aucoeurdesartisteslemans/",
         icon: "tabler:brand-facebook",
       },
       instagram: {
-        link: "",
+        link: "https://www.instagram.com/au_coeur_des_artistes/",
         icon: "tabler:brand-instagram",
-      },
-      x: {
-        link: "https://x.com/mark_bruderer",
-        icon: "tabler:brand-twitter",
-      },
-      youtube: {
-        link: "https://www.youtube.com/@mark_hacks",
-        icon: "tabler:brand-youtube",
       },
     },
   },
