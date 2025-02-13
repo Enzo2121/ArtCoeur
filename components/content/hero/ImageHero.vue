@@ -1,13 +1,14 @@
 <script setup>
-defineProps(['imgSrc', 'icon']);
+const props = defineProps({
+  imgSrc: String,
+  icon: String
+});
 </script>
 
 <template>
   <div class="relative p-14 mb-14 not-prose">
-    <img :src="src" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover rounded-xl" />
-    <div class="absolute inset-0 h-full w-full rounded-xl bg-black/50 -z-10">
-
-    </div>
+    <img :src="imgSrc" alt="" class="absolute inset-0 -z-10 h-1/2 w-full object-cover rounded-xl" />
+    <div class="absolute inset-0 h-1/2 w-full rounded-xl bg-black/50 -z-10"></div>
     <div class="mx-auto max-w-2xl py-16 sm:py-32 lg:py-32">
       <div v-if="icon" class="hidden sm:mb-8 sm:flex sm:justify-center">
         <div
@@ -26,3 +27,7 @@ defineProps(['imgSrc', 'icon']);
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Ajoutez ici des styles personnalisés si nécessaire */
+</style>
