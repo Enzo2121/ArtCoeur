@@ -8,21 +8,19 @@ imageSrc: /images/hero.webp
 imageSrc: /images/hero.webp
 ---
 #title
-Un Salon de Thé <span style="color: #B4878E;">Chaleureux</span> Pour Votre Pause Gourmande
-
+Un Salon de Thé [Chaleureux]{style="color: #B4878E;"} Pour Votre Pause Gourmande
 
 #description
 Plongez dans l'univers chaleureux de notre salon de thé, un lieu de détente et de convivialité où vous pourrez déguster des boissons artisanales et des pâtisseries locales.
 ::
 
 ::carte
----
----
 #menuTitle
 Notre Carte
 
 #category1Icon
-<Icon name="Coffee" class="w-6 h-6 mr-2" />
+  :::icon{.w-6.h-6.mr-2 name="Coffee"}
+  :::
 
 #category1Name
 Boissons Chaudes
@@ -82,7 +80,8 @@ Betterave et cinq épices
 5.00
 
 #category2Icon
-<Icon name="IceCream" class="w-6 h-6 mr-2" />
+  :::icon{.w-6.h-6.mr-2 name="IceCream"}
+  :::
 
 #category2Name
 Boissons Froides
@@ -100,16 +99,16 @@ Frais et fruité
 Fizz Cola
 
 #item8Description
-33cl - cola artisanal bio sans caféine 
+33cl - cola artisanal bio sans caféine
 
 #item8Price
 4.00
 
 #item9Name
-Le Schorle rhubarbe 
+Le Schorle rhubarbe
 
 #item9Description
-33cl - fines bulles bio 
+33cl - fines bulles bio
 
 #item9Price
 4.00
@@ -142,7 +141,7 @@ Maté
 4.00
 
 #item13Name
-Sirop à l'eau 
+Sirop à l'eau
 
 #item13Description
 Menthe, Grenadine, Fraise, Kiwi, Pêche
@@ -151,7 +150,8 @@ Menthe, Grenadine, Fraise, Kiwi, Pêche
 3.00
 
 #category3Icon
-<Icon name="IceCream" class="w-6 h-6 mr-2" />
+  :::icon{.w-6.h-6.mr-2 name="IceCream"}
+  :::
 
 #category3Name
 Thés et Infusions
@@ -169,7 +169,7 @@ Thé noir aux pétales de bleuets
 Chai inpérial
 
 #item15Description
-Un Chai inspiré de la tradition indienne 
+Un Chai inspiré de la tradition indienne
 
 #item15Price
 3.50
@@ -184,7 +184,7 @@ Le thé à la marococaine par excellence
 3.50
 
 #item17Name
-Infusion Faune 
+Infusion Faune
 
 #item17Description
 Thym serpolet | Thym citron
@@ -193,7 +193,7 @@ Thym serpolet | Thym citron
 3.50
 
 #item18Name
-Grand Jasmin 
+Grand Jasmin
 
 #item18Description
 donne une infusion délicate et bien parfumée
