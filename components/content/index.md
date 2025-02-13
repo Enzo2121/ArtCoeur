@@ -113,7 +113,7 @@ Simon Konecki
 Nos merveilleux clients nous recommendent 
 
 #testimonialsDescription
-Voici quelques avis laissés par nos clients sur Google ! Leur satisfaction est notre plus grande fierté, et nous mettons tout en œuvre pour offrir un service de qualité
+Voici quelques avis laissés par nos clients sur Google ! Leur satisfaction est notre plus grande fierté, et nous mettons tout en œuvre pour offrir un service de qualité.
 
 #testimonial1Name
 Julie.L
