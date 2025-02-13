@@ -55,7 +55,7 @@
     <div class="mt-12 md:mt-16">
       <div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
         <div class="relative">
-          <img class="w-full h-[42rem] rounded-lg" :src="imageSrc" alt="Features Image">
+          <nuxt-img class="w-full h-[42rem] rounded-lg" :src="imageSrc" alt="Features Image"/>
         </div>
       </div>
     </div>

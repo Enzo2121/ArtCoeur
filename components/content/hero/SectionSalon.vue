@@ -18,7 +18,7 @@
         </div>
         <div class="hidden md:block mb-24 md:mb-0 sm:px-6">
           <div class="relative">
-            <img class="rounded-lg w-full h-[32rem]" :src="imageSrc" alt="Salon de Thé">
+            <nuxt-img class="rounded-lg w-full h-[32rem]" :src="imageSrc" alt="Salon de Thé"/>
           </div>
         </div>
       </div>

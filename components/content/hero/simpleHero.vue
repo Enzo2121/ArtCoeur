@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="relative mt-14">
-        <img :src="imageSrc" class="w-full  h-[48rem] shadow-lg rounded-lg border-[5px] border-[#331E23]" alt="Hero Image" />
+        <nuxt-img :src="imageSrc" class="w-full  h-[48rem] shadow-lg rounded-lg border-[5px] border-[#331E23]" alt="Hero Image" />
         <div class="absolute -top-5 right-4 translate-x-1/2 -translate-y-1/2">
           <img src="/images/heartHero.svg" class="max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
         </div>
