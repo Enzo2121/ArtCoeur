@@ -11,9 +11,9 @@
           </p>
         </div>
         <div class="relative">
-          <img :src="imageSrc" class="rounded-lg w-full h-[42rem] border-[5px] border-[#331E23]" alt="Salon Image" />
+          <nuxt-img :src="imageSrc" class="rounded-lg lg:w-full lg:h-[42rem] md:w-full md:h-[32rem] w-full h-[18rem]   border-[5px] border-[#331E23]" alt="Salon Image" />
           <div class="absolute -top-5 right-4 translate-x-1/2 -translate-y-1/2">
-            <img src="/images/heartHero.svg" class="max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
+            <nuxt-img src="/images/heartHero.svg" class="max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
           </div>
         </div>
       </div>
