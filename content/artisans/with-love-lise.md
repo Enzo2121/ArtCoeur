@@ -1,17 +1,22 @@
 ---
 layout: artisan
 title: With love, Lise
-description: Après des années de pâtisserie, je me suis reconvertie afin d’allier mes deux passions, la décoration d’intérieur et la pâtisserie.
-profileImage: /images/artisans/with-love-lise.jpg
+description: Je m’appelle Lise et j’ai créé With love, Lise en mars 2021 pour allier mes deux passions ; la décoration d’intérieur et la pâtisserie. Après plusieurs années en tant que pâtissière, j’ai choisi de me reconvertir pour créer des bougies, des gâteaux et des fondants parfumés, fabriqués avec amour et inspirés par la gourmandise.
+profileImage:
 socialLinks:
-  - url: https://www.instagram.com/withlovelise/
+  - url: https://www.withlovelise.com/
+    icon: tabler:world
+  - url: https://www.instagram.com/withlove.lise/?hl=fr
     icon: tabler:brand-instagram
+  - url: https://www.facebook.com/withloveLise
+    icon: tabler:brand-facebook
 gallery:
-  - /images/artisans/with-love-lise/work1.jpg
-  - /images/artisans/with-love-lise/work2.jpg
-  - /images/artisans/with-love-lise/work3.jpg
+  - /images/artisans/lise/image1.webp
+  - /images/artisans/lise/image2.webp
+  - /images/artisans/lise/image3.webp
+  - /images/artisans/lise/image4.webp
+  - /images/artisans/lise/image5.webp
+  - /images/artisans/lise/image6.webp
+categories:
+  - décoration d'intérieur
 ---
-
-# With love, Lise
-
-Après des années de pâtisserie, je me suis reconvertie afin d’allier mes deux passions, la décoration d’intérieur et la pâtisserie.

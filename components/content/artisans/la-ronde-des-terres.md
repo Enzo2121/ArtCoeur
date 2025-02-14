@@ -1,4 +1,0 @@
----
-categories:
-  - accessoire de mode
----  

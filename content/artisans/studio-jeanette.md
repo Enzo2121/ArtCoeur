@@ -7,7 +7,7 @@ description: >
   - une sélection de décorations en fleurs séchées disponibles en boutique et la possibilité d'en faire réaliser sur-mesure
   - des ateliers créatifs 
   - la scénographie florale de vos événements & lieux privés ou professionnels
-profileImage: /images/artisans/studio-jeanette.jpg
+profileImage: 
 socialLinks:
   - url: https://www.studiojeanette.fr/
     icon: tabler:world
@@ -21,9 +21,9 @@ contact:
   - type: email
     value: hellostudiojeanette@gmail.com
 gallery:
-  - /images/artisans/studio-jeanette/photo1.webp
-  - /images/artisans/studio-jeanette/photo2.webp
-  - /images/artisans/studio-jeanette/photo3.webp
+  - /images/artisans/StudioJeanette/image1.webp
+  - /images/artisans/StudioJeanette/image2.webp
+  - /images/artisans/StudioJeanette/image3.webp
 categories:
   - décoration d'intérieur  
   - accessoire de mode

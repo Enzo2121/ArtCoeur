@@ -1,7 +1,13 @@
 ---
 layout: artisan
-profileImage: /images/artisans/foxie-mandala.jpg
+title: Foxie Mandala
+description: Lisa, créatrice passionnée par les mandalas, a fondé FoxieMandala en 2021. Spécialiste du pointillisme, elle peint à la main vaisselle, tableaux et fresques murales colorées pour illuminer les espaces du quotidien. Après quatre ans à l’étranger, elle partage aujourd’hui ses good vibes à travers ses créations exposées en boutiques de créateurs et sur sa boutique en ligne.
+profileImage: 
 socialLinks:
+  - url: https://www.foxiemandala.com/
+    icon: tabler:world
+  - url: https://www.facebook.com/foxiemandala/
+    icon: tabler:brand-facebook
   - url: https://www.instagram.com/foxiemandala/
     icon: tabler:brand-instagram
 gallery:
@@ -10,9 +16,4 @@ gallery:
   - /images/artisans/foxie/biere.webp
 categories:
   - décoration d'intérieur
-  - accessoire de mode
 ---
-
-# Foxie Mandala
-
-Créatrice passionnée par les mandalas, Lisa a créé Foxie Mandala en 2021. A l’aide de ses outils à bout rond, elle peint de la vaisselle, tableau, et tout autre support avec la technique du pointillisme (dot painting en anglais). De plus, elle réalise des fresques murales très colorées pour embellir les pièces de vies quotidiennes. Elle propose des ateliers dot painting 2 fois par mois à l'atelier Au Coeur Des Artistes. (14 rue Barbier, Le Mans)
