@@ -22,7 +22,7 @@
                 </div>
               </div>
             </div>
-            <img :src="member1Image" class="aspect-square w-full rounded-lg object-cover transition duration-300 ease-in-out" />
+            <nuxt-img :src="member1Image" class="aspect-square w-full rounded-lg object-cover transition duration-300 ease-in-out" />
           </div>
         </div>
   
@@ -39,7 +39,7 @@
                 </div>
               </div>
             </div>
-            <img :src="member2Image" class="aspect-square w-full mx-auto rounded-lg object-cover transition duration-300 ease-in-out" />
+            <nuxt-img :src="member2Image" class="aspect-square w-full mx-auto rounded-lg object-cover transition duration-300 ease-in-out" />
           </div>
           <div class="group relative aspect-square cursor-pointer overflow-hidden rounded-xl">
             <div class="absolute inset-x-0 -bottom-2 z-50 flex cursor-pointer items-end rounded-xl bg-gradient-to-t from-black/80 to-transparent pt-30 text-white opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
@@ -52,7 +52,7 @@
                 </div>
               </div>
             </div>
-            <img :src="member3Image" class="aspect-square w-full mx-auto rounded-lg object-cover transition duration-300 ease-in-out" />
+            <nuxt-img :src="member3Image" class="aspect-square w-full mx-auto rounded-lg object-cover transition duration-300 ease-in-out" />
           </div>
         </div>
       </div>

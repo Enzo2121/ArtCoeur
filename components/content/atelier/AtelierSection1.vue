@@ -11,7 +11,7 @@
       </div>
       <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="bg-white dark:bg-[#281c1f] shadow-md rounded-lg overflow-hidden">
-          <img :src="card1Image" alt="Card Image 1" class="w-full h-[18rem] object-cover">
+          <nuxt-img :src="card1Image" alt="Card Image 1" class="w-full h-[18rem] object-cover"/>
           <div class="px-4">
             <h3 class="text-xl font-semibold">
               <ContentSlot name="card1Title" />
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="bg-white dark:bg-[#281c1f] shadow-md rounded-lg overflow-hidden">
-          <img :src="card2Image" alt="Card Image 2" class="w-full h-[18rem] object-cover">
+          <nuxt-img :src="card2Image" alt="Card Image 2" class="w-full h-[18rem] object-cover"/>
           <div class="px-4">
             <h3 class="text-xl font-semibold">
               <ContentSlot name="card2Title" />
@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="bg-white dark:bg-[#281c1f] shadow-md rounded-lg overflow-hidden">
-          <img :src="card3Image" alt="Card Image 3" class="w-full h-[18rem] object-cover">
+          <nuxt-img :src="card3Image" alt="Card Image 3" class="w-full h-[18rem] object-cover"/>
           <div class="px-4">
             <h3 class="text-xl font-semibold">
               <ContentSlot name="card3Title" />

@@ -5,7 +5,7 @@
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 gap-6">
         <div v-for="(image, index) in images" :key="index" class="relative w-full h-full pb-[56.25%] overflow-hidden rounded-lg shadow-lg">
-          <img :src="image.src" :alt="image.alt" class="absolute top-0 left-0 w-full h-full object-cover" />
+          <nuxt-img :src="image.src" :alt="image.alt" class="absolute top-0 left-0 w-full h-full object-cover" />
         </div>
       </div>
     </div>
