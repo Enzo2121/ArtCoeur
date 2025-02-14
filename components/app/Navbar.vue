@@ -28,7 +28,7 @@ const routesRef = computed(() => {
           <DisclosureButton
             class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
             <span class="absolute -inset-0.5" />
-            <span class="sr-only">Open main menu</span>
+            <span class="sr-only">menu</span>
             <Icon name="tabler:baseline-density-medium" v-if="!open" class="block h-6 w-6" aria-hidden="true" />
             <Icon name="tabler:x" v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>

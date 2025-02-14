@@ -3,7 +3,7 @@
       <div class="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
         <div class="hidden md:block mb-24 md:mb-0 sm:px-6">
           <div class="relative">
-            <nuxt-img class="rounded-lg" :src="imageSrc" alt="Atelier Image"/>
+            <nuxt-img class=" w-full rounded-lg" :src="imageSrc" alt="Atelier Image"/>
           </div>
         </div>
         <div>

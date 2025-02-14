@@ -8,7 +8,7 @@ const config = useAppConfig();
       :alt="`${config?.general.title} Logo`" />
     <Icon v-else-if="config?.general?.iconLogo" class="w-7 h-7 text-gray-600 dark:text-white"
       :name="config?.general?.iconLogo" />
-    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{{ config.general.title
+    <span class="self-center text-2xl hidden md:flex lg:flex font-semibold whitespace-nowrap dark:text-white">{{ config.general.title
       }}</span>
   </NuxtLink>
 </template>
