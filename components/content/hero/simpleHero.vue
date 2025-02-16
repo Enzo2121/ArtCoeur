@@ -2,7 +2,7 @@
   <section>
     <div class="max-w-screen-xl mx-auto px-4 gap-12 text-[#331E23] md:px-8">
       <div class="max-w-4xl mx-auto md:text-center text-left">
-        <h2 class="lg:text-5xl text-[#331E23] jakarta-bold mx-auto md:text-5xl">
+        <h2 class="lg:text-5xl text-[28px] text-[#331E23] jakarta-bold mx-auto md:text-4xl">
           <ContentSlot name="heroTitle" />
         </h2>
         <p class="max-w-2xl mx-auto jakarta-regular lg:text-lg text-[#331E23] dark:text-white mt-1">
