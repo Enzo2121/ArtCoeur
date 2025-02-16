@@ -14,7 +14,7 @@
         <!-- Première carte -->
         <div class="w-full shadow-[0_2px_10px_-2px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-lg bg-white dark:bg-[#281c1f] relative">
           <div class="flex items-center justify-center w-12 h-12 max-lg:w-10 max-lg:h-10 absolute -top-5 -right-5">
-            <nuxt-img src="/images/heart.svg" class="w-12 h-12 max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
+            <img src="/images/heart.svg" class="w-12 h-12 max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
           </div>
 
           <div class="flex items-center">
@@ -35,7 +35,7 @@
         <!-- Deuxième carte -->
         <div class="w-full shadow-[0_2px_10px_-2px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-lg bg-white dark:bg-[#281c1f] relative">
           <div class="flex items-center justify-center w-12 h-12 max-lg:w-10 max-lg:h-10 absolute -top-5 -right-5">
-            <nuxt-img src="/images/heart.svg" class="w-12 h-12 max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
+            <img src="/images/heart.svg" class="w-12 h-12 max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
           </div>
 
           <div class="flex items-center">
@@ -56,7 +56,7 @@
         <!-- Troisième carte -->
         <div class="w-full shadow-[0_2px_10px_-2px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-lg bg-white dark:bg-[#281c1f] relative">
           <div class="flex items-center justify-center w-12 h-12 max-lg:w-10 max-lg:h-10 absolute -top-5 -right-5">
-            <nuxt-img src="/images/heart.svg" class="w-12 h-12 max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
+            <img src="/images/heart.svg" class="w-12 h-12 max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
           </div>
 
           <div class="flex items-center">

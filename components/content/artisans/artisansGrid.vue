@@ -24,7 +24,7 @@ const selectCategory = (category) => {
 
 <template>
   <div>
-    <div class="flex space-x-4 mb-4">
+    <div class="flex flex-wrap gap-2 mb-4">
       <button 
         v-for="category in categories" 
         :key="category" 

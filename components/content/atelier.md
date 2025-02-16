@@ -10,7 +10,7 @@ imageSrc: /images/atelier/atelier5.webp
 L'Atelier est un espace  <span style="color: #B4878E;">convivial</span> et artistique de coworking
 
 #heroDescription
-L'Atelier est un espace convivial et artistique de coworking, crée dans la continuité de la boutique au cœur L'Atelier, ouvert en février 2023, est un espace hybride alliant coworking artistique et organisation d’événements. Il accueille une dizaine de créateurs qui y trouvent un lieu de travail inspirant, avec ateliers, cuisine et salon. Des salles sont aussi disponible à la location pour des événements professionnels ou personnels. Situé au 14 rue Barbier, à proximité de la boutique Au cœur des artistes, il favorise les échanges et la créativité.
+L'Atelier, ouvert en février 2023, est un espace de coworking artistique et d'événements situé au 14 rue Barbier. Il accueille des créateurs et propose des salles à louer pour des événements, favorisant les échanges et la créativité.
 ::
 
 ::atelier-section1

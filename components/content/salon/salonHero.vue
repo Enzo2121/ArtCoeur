@@ -11,11 +11,11 @@
           </p>
         </div>
         <div class="relative">
-          <nuxt-img :src="imageSrc" class="rounded-lg lg:w-full lg:h-[42rem] md:w-full md:h-[32rem] w-full h-[18rem]   border-[5px] border-[#331E23]" alt="Salon Image" />
-          <div class="absolute -top-5 right-4 translate-x-1/2 -translate-y-1/2">
-            <img src="/images/heartHero.svg" class="max-lg:w-10 max-lg:h-10" alt="Heart Icon" />
-          </div>
+        <nuxt-img :src="imageSrc" class="lg:w-full lg:h-[42rem] md:w-full md:h-[32rem] w-full h-[18rem] shadow-lg rounded-lg border-[5px] border-[#331E23]" alt="Hero Image" />
+        <div class="absolute lg:-top-5 lg:right-4 md:right-2 -top-1 right-1 translate-x-1/2 -translate-y-1/2">
+          <img src="/images/heartHero.svg" class="w-16 h-16 md:w-[104px] md:h-[104px] lg:w-[241px] lg:h-[241px]" alt="Heart Icon" />
         </div>
+      </div>
       </div>
     </div>
   </section>

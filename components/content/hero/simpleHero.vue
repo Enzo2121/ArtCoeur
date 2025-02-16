@@ -8,19 +8,12 @@
         <p class="max-w-2xl mx-auto jakarta-regular lg:text-lg text-[#331E23] dark:text-white mt-1">
           <ContentSlot name="heroDescription" />
         </p>
-        <!-- Boutons pour les écrans moyens et plus grands -->
-        <div class="hidden md:flex items-center justify-center gap-x-3 mt-3">
+        <div class="flex items-start md:items-center justify-start md:justify-center gap-x-3 mt-3">
           <NuxtLink :to="button1Link" class="inline-block py-0 px-4 text-[#331E23] hover:text-gray-500 dark:text-white border dark:border-gray-200/20 font-medium duration-150 active:bg-gray-100 rounded-lg jakarta-regular">
             <ContentSlot name="button1Text" />
           </NuxtLink>
           <NuxtLink :to="button2Link" class="inline-block py-0 px-4 text-white font-medium duration-150 hover:bg-gray-500 active:bg-gray-700 rounded-lg shadow-lg hover:shadow-none" :style="{ backgroundColor: '#B4878E' }">
             <ContentSlot name="button2Text" />
-          </NuxtLink>
-        </div>
-        <!-- Bouton pour les petits écrans -->
-        <div class="flex md:hiddeN gap-x-3 mt-3">
-          <NuxtLink :to="button2Link" class="inline-block py-3 px-4 text-white font-medium duration-150 hover:bg-gray-500 active:bg-gray-700 rounded-lg shadow-lg hover:shadow-none" :style="{ backgroundColor: '#B4878E' }">
-            Nous découvrir
           </NuxtLink>
         </div>
       </div>
